@@ -1,11 +1,11 @@
 //Reference paths for namespace
 /// <reference path="base-component.ts" />
-import Cmp  from "./base-component.js"; //when used default export we can import it under whatever name we like
-import { DragTarget } from "../models/drag-drop.js";
-import { Project, ProjectStatus } from "../models/project.js";
-import { autobind } from "../decorators/autobind.js";
-import { projectState } from "../state/project-state.js";
-import { ProjectItem } from "./project-item.js";
+import Cmp  from "./base-component"; //when used default export we can import it under whatever name we like
+import { DragTarget } from "../models/drag-drop";
+import { Project, ProjectStatus } from "../models/project";
+import { autobind } from "../decorators/autobind";
+import { projectState } from "../state/project-state";
+import { ProjectItem } from "./project-item";
 
 // ProjectList Class
 export class ProjectList extends Cmp<HTMLDivElement, HTMLElement> implements DragTarget {
