@@ -57,7 +57,9 @@ button:active {
 
 .projects {
   margin: 1rem;
-  border: 1px solid #ff0062;
+  border: 2px solid #ff0062;
+  border-radius: .5rem;
+  box-shadow: 1px 1px 8px rgba(255, 0, 98, 0.26);
 }
 
 .projects header {
@@ -66,10 +68,12 @@ button:active {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: .5rem .5rem 0 0;
 }
 
 #finished-projects {
   border-color: #0044ff;
+  box-shadow: 1px 1px 8px rgba(0, 68, 255, 0.26);
 }
 
 #finished-projects header {
@@ -85,6 +89,7 @@ button:active {
   list-style: none;
   margin: 0;
   padding: 1rem;
+  border-radius: 0 0 .5rem .5rem;
 }
 
 .projects li {
@@ -123,6 +128,8 @@ button:active {
 #user-input {
   margin: 1rem;
   padding: 1rem;
-  border: 1px solid #ff0062;
+  border: 2px solid rgb(255, 0, 98);
   background: #f7f7f7;
+  border-radius: .5rem;
+  box-shadow: 1px 1px 8px rgba(255, 0, 98, 0.26);
 }
